@@ -3,13 +3,15 @@ import './App.css';
 import LifeCycleDemo from './test/reactLifeClass';
 import ReactFun from './test/reactFun';
 import SimpleCal from './test/useStateEx';
+import UseEffectEx from './test/useEffectEx';
 
 function App() {
   return (
     <>
-      <LifeCycleDemo />
+      {/*<LifeCycleDemo />
       <ReactFun />
-      <SimpleCal />
+      <SimpleCal />*/}
+      <UseEffectEx />
     </>
   );
 }
